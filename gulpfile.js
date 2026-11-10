@@ -18,3 +18,13 @@
 
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
+var cleanCss = require('gulp-clean-css');
+var del = require('del');
+const htmlmin = require('gulp-htmlmin');
+const cssbeautify = require('gulp-cssbeautify');
+var gulp = require('gulp');
+const npmDist = require('gulp-npm-dist');
+var sass = require('gulp-sass')(require('sass'));
+var wait = require('gulp-wait');
+var sourcemaps = require('gulp-sourcemaps');
+var fileinclude = require('gulp-file-include');
