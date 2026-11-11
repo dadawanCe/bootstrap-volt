@@ -28,3 +28,13 @@ var sass = require('gulp-sass')(require('sass'));
 var wait = require('gulp-wait');
 var sourcemaps = require('gulp-sourcemaps');
 var fileinclude = require('gulp-file-include');
+
+// Define paths
+
+const paths = {
+    dist: {
+        base: './dist/',
+        css: './dist/css',
+        html: './dist/pages',
+        assets: './dist/assets',
+        img: './dist/assets/img',
