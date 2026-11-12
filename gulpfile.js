@@ -38,3 +38,13 @@ const paths = {
         html: './dist/pages',
         assets: './dist/assets',
         img: './dist/assets/img',
+        vendor: './dist/vendor'
+    },
+    dev: {
+        base: './html&css/',
+        css: './html&css/css',
+        html: './html&css/pages',
+        assets: './html&css/assets',
+        img: './html&css/assets/img',
+        vendor: './html&css/vendor'
+    },
