@@ -48,3 +48,13 @@ const paths = {
         img: './html&css/assets/img',
         vendor: './html&css/vendor'
     },
+    base: {
+        base: './',
+        node: './node_modules'
+    },
+    src: {
+        base: './src/',
+        css: './src/css',
+        html: './src/pages/**/*.html',
+        assets: './src/assets/**/*.*',
+        partials: './src/partials/**/*.html',
