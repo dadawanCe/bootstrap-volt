@@ -58,3 +58,13 @@ const paths = {
         html: './src/pages/**/*.html',
         assets: './src/assets/**/*.*',
         partials: './src/partials/**/*.html',
+        scss: './src/scss',
+        node_modules: './node_modules/',
+        vendor: './vendor'
+    },
+    temp: {
+        base: './.temp/',
+        css: './.temp/css',
+        html: './.temp/pages',
+        assets: './.temp/assets',
+        vendor: './.temp/vendor'
